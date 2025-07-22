@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JustInClicks.com</title>
+  <style>
+    /* Base colors */
+    :root { --black: #000; --white: #fff; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--white); color: var(--black); }
+
+    /* Top bar */
+    .topbar { background: var(--black); color: var(--white); padding: 0.75rem 1rem; text-align: center; font-size: 1rem; position: sticky; top: 0; z-index: 100; }
+
+    header { text-align: center; padding: 2rem 1rem; }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1rem; }
+
+    main { max-width: 1200px; margin: 0 auto; padding: 2rem 1rem; }
+    section + section { margin-top: 2.5rem; }
+    h2 { text-align: center; font-size: 1.75rem; margin-bottom: 1rem; }
+
+    /* Generic list for cards */
+    .list { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
+    .list a { background: var(--white); border: 1px solid var(--black); border-radius: 6px; overflow: hidden; text-decoration: none; color: var(--black); flex: 1 1 260px; max-width: 300px; }
+    .card-img { width: 100%; height: 140px; object-fit: cover; background: var(--black); }
+    .card-content { padding: 1rem; }
+    .card-content h3 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+    .card-content p { font-size: 0.95rem; line-height: 1.4; }
+
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      .card-img { height: 120px; }
+      header h1 { font-size: 2rem; }
+      .topbar { font-size: 0.9rem; padding: 0.5rem; }
+    }
+
+    footer { text-align: center; margin: 3rem 0 1rem; font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    JustInClicks.com
+  </div>
+  <header>
+    <h1>Now we operate as Non-Profit Organization</h1>
+    <h3><em>We do not accept any project or work.</em></h3>
+  </header>
+  <main>
+    <section>
+      <h2>Our Platforms</h2>
+      <div class="list">
+        <a href="https://sangrah.justinclicks.com" target="_blank">
+          <div class="card-content">
+            <h3>sangrah.justinclicks.com</h3>
+            <p>Community-driven content aggregation platform.</p>
+          </div>
+        </a>
+        <a href="https://tools.justinclicks.com" target="_blank">
+          <div class="card-content">
+            <h3>tools.justinclicks.com</h3>
+            <p>Collection of useful online utilities and widgets.</p>
+          </div>
+        </a>
+        <a href="https://bank-apis.justinclicks.com/API/V1/" target="_blank">
+          <div class="card-content">
+            <h3>bank-apis.justinclicks.com</h3>
+            <p>RESTful banking API endpoints for developers.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section>
+      <h2>Open Source Projects</h2>
+      <div class="list">
+        <a href="https://github.com/JustInClicks-com/Add-QR-Code-on-Your-Site" target="_blank">
+          <img class="card-img" src="https://opengraph.githubassets.com/1/JustInClicks-com/Add-QR-Code-on-Your-Site" alt="Add QR Code on Your Site">
+          <div class="card-content">
+            <h3>Add QR Code on Your Site</h3>
+            <p>JavaScript plugin to easily add dynamic QR codes.</p>
+          </div>
+        </a>
+        <a href="https://github.com/JustInClicks-com/NumberToWords-Library" target="_blank">
+          <img class="card-img" src="https://opengraph.githubassets.com/1/JustInClicks-com/NumberToWords-Library" alt="NumberToWords Library">
+          <div class="card-content">
+            <h3>NumberToWords Library</h3>
+            <p>Convert numbers to English words in multiple formats.</p>
+          </div>
+        </a>
+        <a href="https://github.com/JustInClicks-com/Android-View-Binding-Generator" target="_blank">
+          <img class="card-img" src="https://opengraph.githubassets.com/1/JustInClicks-com/Android-View-Binding-Generator" alt="Android View Binding Generator">
+          <div class="card-content">
+            <h3>Android View Binding Generator</h3>
+            <p>Automates generation of view binding code for Android.</p>
+          </div>
+        </a>
+        <a href="https://github.com/JustInClicks-com/EasyURLs" target="_blank">
+          <img class="card-img" src="https://opengraph.githubassets.com/1/JustInClicks-com/EasyURLs" alt="EasyURLs">
+          <div class="card-content">
+            <h3>EasyURLs</h3>
+            <p>Lightweight URL shortener for Node.js.</p>
+          </div>
+        </a>
+        <a href="https://github.com/JustInClicks-com/FREE-Site-Status-Page" target="_blank">
+          <img class="card-img" src="https://opengraph.githubassets.com/1/JustInClicks-com/FREE-Site-Status-Page" alt="FREE Site Status Page">
+          <div class="card-content">
+            <h3>FREE Site Status Page</h3>
+            <p>Open-source template to monitor uptime and incidents.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 JustInClicks.com — Committed to open source and community empowerment
+  </footer>
+</body>
+</html>
